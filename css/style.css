@@ -1,0 +1,577 @@
+html, body {
+  font-size: 16px;
+  height: 100%;
+}
+
+body {
+  margin: 0px;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#container1 {
+  width: 100%;
+  height: 100%;
+  background: url("../images/9.png") no-repeat 0px 0px;
+  background-size: cover;
+  overflow: hidden;
+}
+#container1 .wrap {
+  position: relative;
+}
+#container1 .word1 {
+  width: 10.1875rem;
+  height: 10.25rem;
+  opacity: 0;
+  background-color: rgba(255, 255, 255, 0.4);
+  color: #333333;
+  position: absolute;
+  z-index: 10;
+  left: 4.125rem;
+  top: 4.9375rem;
+  box-sizing: border-box;
+  padding: 1rem;
+}
+#container1 .word1 p {
+  margin: 0px;
+  line-height: 1.5;
+  font-size: 0.9375rem;
+  font-family: "SImHei";
+}
+#container1 .word2 {
+  opacity: 0;
+  width: 10.1875rem;
+  height: 10.25rem;
+  background-color: rgba(255, 255, 255, 0.4);
+  color: #333333;
+  position: absolute;
+  left: 1.78125rem;
+  top: 7.4375rem;
+}
+#container1 .word2 span {
+  color: #333333;
+  position: absolute;
+  bottom: 0.5rem;
+  left: 0.3rem;
+  width: 2rem;
+  text-align: center;
+  font-size: 1.1875rem;
+  font-family: "SImHei";
+}
+
+#container2 {
+  width: 100%;
+  height: 100%;
+  background: url("../images/10.png") no-repeat 0px 0px;
+  background-size: cover;
+  overflow: hidden;
+}
+#container2 .wrap {
+  position: relative;
+}
+#container2 .page2-pic1 {
+  opacity: 0;
+  width: 13.5625rem;
+  height: 21.34375rem;
+  position: absolute;
+  left: 2.375rem;
+  top: 18.1875rem;
+  background: url("../images/1.jpg") no-repeat;
+  background-size: 100% 100%;
+  box-shadow: 0 0 0 0.1rem white;
+}
+#container2 .page2-pic2 {
+  opacity: 0;
+  width: 13.5625rem;
+  height: 21.34375rem;
+  position: absolute;
+  left: 7.78125rem;
+  top: 2.65625rem;
+  background: url("../images/2.jpg") no-repeat;
+  background-size: 100% 100%;
+  box-shadow: 0 0 0 0.1rem white;
+}
+#container2 .rec {
+  opacity: 0;
+  width: 8.1875rem;
+  height: 5.8125rem;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  color: white;
+  padding: 0.55rem;
+  text-align: justify;
+  box-sizing: border-box;
+  display: table;
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 0 0.1rem white;
+}
+#container2 .rec .align {
+  display: table-cell;
+  vertical-align: middle;
+}
+#container2 .rec span {
+  line-height: 1.3;
+  font-size: 0.875rem;
+  font-family: "SImHei";
+}
+
+#container3 {
+  width: 100%;
+  height: 100%;
+  background: url("../images/4.jpg") no-repeat 0px 0px;
+  background-size: cover;
+  overflow: hidden;
+}
+#container3 .wrap {
+  position: relative;
+}
+#container3 .page3-pic1 {
+  width: 10.9375rem;
+  height: 12.3125rem;
+  opacity: 0;
+  background: url("../images/11.png") no-repeat 0px 0px;
+  background-size: 100% 100%;
+  position: absolute;
+  left: 2.5625rem;
+  top: 3.90625rem;
+}
+#container3 .page3-pic2 {
+  width: 8.90625rem;
+  height: 9.96875rem;
+  opacity: 0;
+  background: url("../images/12.png") no-repeat 0px 0px;
+  background-size: 100% 100%;
+  position: absolute;
+  left: 7.3125rem;
+  top: 15.21875rem;
+}
+#container3 .page3-word {
+  width: 10rem;
+  height: 11.625rem;
+  opacity: 0;
+  position: absolute;
+  left: 1.40625rem;
+  top: 25.65625rem;
+  color: #333333;
+  line-height: 1.8;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  font-size: 0.9375rem;
+  font-family: "SImHei";
+}
+
+#container4 {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+#container4 .wrap {
+  position: relative;
+}
+#container4 .page4-pic1 {
+  opacity: 0;
+  width: 19.1875rem;
+  height: 8.875rem;
+  background: url("../images/6.jpg") no-repeat 0px 0px;
+  background-size: 100% 100%;
+  position: absolute;
+  left: 2.375rem;
+  top: 3.53125rem;
+}
+#container4 .page4-pic2 {
+  opacity: 0;
+  width: 19.1875rem;
+  height: 8.8125rem;
+  background: url("../images/7.jpg") no-repeat 0px 0px;
+  background-size: 100% 100%;
+  position: absolute;
+  left: 2.375rem;
+  top: 13.46875rem;
+}
+#container4 .page4-word {
+  opacity: 0;
+  width: 19.1875rem;
+  height: 11.6875rem;
+  position: absolute;
+  box-sizing: border-box;
+  padding-right: 0.34375rem;
+  text-align: center;
+  left: 2.375rem;
+  top: 24.375rem;
+}
+#container4 .page4-word span {
+  height: 100%;
+  width: 2.3125rem;
+  box-sizing: border-box;
+  float: right;
+  border-left: 1px solid #cccccc;
+  color: #333333;
+  font-size: 1.25rem;
+  font-family: "SImHei";
+}
+#container4 .page4-word span:first-child {
+  border-right: 1px solid #cccccc;
+}
+#container4 .page4-word::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#container5 {
+  width: 100%;
+  height: 100%;
+  background: url("../images/13.png") no-repeat 0px 0px;
+  background-size: cover;
+  overflow: hidden;
+}
+#container5 .wrap {
+  position: relative;
+}
+#container5 .page5-pic1 {
+  opacity: 0;
+  width: 9.6875rem;
+  height: 6.4375rem;
+  background: url("../images/14.png") no-repeat 0px 0px;
+  background-size: 100% 100%;
+  position: absolute;
+  left: 6.25rem;
+  top: 9.1875rem;
+}
+#container5 .page5-pic2 {
+  opacity: 0;
+  width: 8.59375rem;
+  height: 5.6875rem;
+  background: url("../images/15.png") no-repeat 0px 0px;
+  background-size: 100% 100%;
+  position: absolute;
+  left: 2.84375rem;
+  top: 16.46875rem;
+}
+#container5 .page5-pic3 {
+  opacity: 0;
+  width: 8.0625rem;
+  height: 14.1875rem;
+  background: url("../images/16.png") no-repeat 0px 0px;
+  background-size: 100% 100%;
+  position: absolute;
+  left: 12.34375rem;
+  top: 16.46875rem;
+}
+#container5 .page5-word1 {
+  opacity: 0;
+  width: 2.8125rem;
+  height: 12.09375rem;
+  background-color: #f2f2f2;
+  border: 1px solid silver;
+  border-top: none;
+  position: absolute;
+  left: 18.15625rem;
+  top: 0px;
+  color: #333333;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  box-sizing: border-box;
+  text-align: center;
+  line-height: 1.5;
+  padding-top: 2.5rem;
+  font-size: 1.1875rem;
+  font-family: "SImHei";
+}
+#container5 .page5-word2 {
+  opacity: 0;
+  width: 8.5rem;
+  height: 12rem;
+  position: absolute;
+  left: 3rem;
+  top: 24rem;
+  line-height: 1.8;
+  color: #333333;
+  font-size: 0.9375rem;
+  font-family: "SImHei";
+}
+
+#container6 {
+  width: 100%;
+  height: 100%;
+  background-color: #f2f2f2;
+  position: relative;
+  overflow: hidden;
+}
+#container6 .wrap {
+  position: relative;
+}
+#container6 .page6-pic1 {
+  opacity: 0;
+  width: 19.5rem;
+  height: 14.0625rem;
+  background: url(../images/3.jpg) no-repeat 0px 0px;
+  background-size: 100% 100%;
+  position: absolute;
+  left: 1.96875rem;
+  top: 1.8125rem;
+}
+#container6 .page6-pic2 {
+  opacity: 0;
+  width: 5.40625rem;
+  height: 5.40625rem;
+  background: url(../images/17.png) no-repeat 0px 0px;
+  background-size: 100% 100%;
+  position: absolute;
+  border-radius: 50%;
+  box-shadow: 0 0 0 0.2rem white;
+  left: 13.40625rem;
+  top: 13.1875rem;
+}
+#container6 .page6-pic3 {
+  opacity: 0;
+  width: 5.40625rem;
+  height: 5.40625rem;
+  background: url(../images/18.png) no-repeat 0px 0px;
+  background-size: 100% 100%;
+  position: absolute;
+  z-index: 5;
+  border-radius: 50%;
+  box-shadow: 0 0 0 0.2rem white;
+  left: 4.65625rem;
+  top: 23.15625rem;
+}
+#container6 .page6-pic4 {
+  opacity: 0;
+  width: 19.5rem;
+  height: 14.0625rem;
+  background: url(../images/5.jpg) no-repeat 0px 0px;
+  background-size: 100% 100%;
+  position: absolute;
+  left: 1.90625rem;
+  top: 25.75rem;
+}
+#container6 .page6-word1 {
+  opacity: 0;
+  width: 31.25rem;
+  height: 2.03125rem;
+  background-color: #d9d9d9;
+  position: absolute;
+  right: 10.21875rem;
+  top: 18.34375rem;
+  color: #333333;
+  line-height: 2.03125rem;
+  text-align: right;
+  box-sizing: border-box;
+  padding-right: 1rem;
+  font-size: 0.9375rem;
+  font-family: "SImHei";
+}
+#container6 .page6-word2 {
+  opacity: 0;
+  width: 31.25rem;
+  height: 2.03125rem;
+  background-color: #d9d9d9;
+  position: absolute;
+  left: 9.125rem;
+  top: 21.15625rem;
+  color: #333333;
+  line-height: 2.03125rem;
+  text-align: left;
+  box-sizing: border-box;
+  padding-left: 1rem;
+  font-size: 0.9375rem;
+  font-family: "SImHei";
+}
+
+#container7 {
+  width: 100%;
+  height: 100%;
+  background-color: #daebfe;
+  position: relative;
+  overflow: hidden;
+}
+#container7 .wrap {
+  position: relative;
+}
+#container7 .page7-pic1 {
+  width: 18.75rem;
+  height: 18.75rem;
+  position: absolute;
+  opacity: 0;
+  left: -1.5rem;
+  top: -1.5rem;
+  z-index: 5;
+  background: url("../images/19.png") no-repeat 0px 0px;
+  background-size: 100% 100%;
+}
+#container7 .page7-pic2 {
+  width: 10.15625rem;
+  height: 10.15625rem;
+  opacity: 0;
+  background: url("../images/20.png") no-repeat 0px 0px;
+  background-size: 100% 100%;
+  position: absolute;
+  left: 12.9375rem;
+  top: 5.28125rem;
+}
+#container7 .page7-pic3 {
+  width: 13.28125rem;
+  height: 13.28125rem;
+  opacity: 0;
+  background: url("../images/21.png") no-repeat 0px 0px;
+  background-size: 100% 100%;
+  position: absolute;
+  z-index: 5;
+  left: 9.3125rem;
+  top: 21.8125rem;
+}
+#container7 .page7-pic4 {
+  width: 13.3125rem;
+  height: 12.71875rem;
+  opacity: 0;
+  background: url("../images/22.png") no-repeat 0px 0px;
+  background-size: 100% 100%;
+  position: absolute;
+  left: 5.53125rem;
+  bottom: 0;
+}
+#container7 .page7-pic5 {
+  width: 9.4375rem;
+  height: 9.4375rem;
+  opacity: 0;
+  background: url("../images/23.png") no-repeat 0px 0px;
+  background-size: 100% 100%;
+  position: absolute;
+  z-index: 10;
+  left: -1rem;
+  bottom: 2.1875rem;
+}
+#container7 .page7-picline1 {
+  opacity: 0;
+  position: absolute;
+  z-index: 50;
+  width: 6.21875rem;
+  height: 6.21875rem;
+  left: 0.6875rem;
+  top: 15.65625rem;
+  list-style-type: none;
+}
+#container7 .page7-picline1 li {
+  width: 100%;
+  height: 100%;
+  background: url("../images/8-1.png") no-repeat 0px 0px;
+  background-size: 100% 100%;
+}
+#container7 .page7-picline2 {
+  opacity: 0;
+  position: absolute;
+  width: 6.21875rem;
+  height: 12.5rem;
+  left: 3.9375rem;
+  top: 12.375rem;
+  list-style-type: none;
+  z-index: 50;
+}
+#container7 .page7-picline2 li:nth-child(1) {
+  width: 100%;
+  height: 6.21875rem;
+  background: url("../images/8-2.png") no-repeat 0px 0px;
+  background-size: 100% 100%;
+}
+#container7 .page7-picline2 li:nth-child(2) {
+  width: 100%;
+  height: 6.21875rem;
+  margin-top: 0.5rem;
+  background: url("../images/8-4.png") no-repeat 0px 0px;
+  background-size: 100% 100%;
+}
+#container7 .page7-picline3 {
+  opacity: 0;
+  position: absolute;
+  width: 6.21875rem;
+  height: 18.75rem;
+  left: 7.21875rem;
+  top: 9.0625rem;
+  list-style-type: none;
+  z-index: 50;
+}
+#container7 .page7-picline3 li:nth-child(1) {
+  width: 100%;
+  height: 6.21875rem;
+  background: url("../images/8-3.png") no-repeat 0px 0px;
+  background-size: 100% 100%;
+}
+#container7 .page7-picline3 li:nth-child(2) {
+  width: 100%;
+  height: 6.21875rem;
+  margin-top: 0.5rem;
+  background: url("../images/8-5.png") no-repeat 0px 0px;
+  background-size: 100% 100%;
+}
+#container7 .page7-picline3 li:nth-child(3) {
+  width: 100%;
+  height: 6.21875rem;
+  margin-top: 0.3125rem;
+  background: url("../images/8-7.png") no-repeat 0px 0px;
+  background-size: 100% 100%;
+}
+#container7 .page7-picline4 {
+  opacity: 0;
+  position: absolute;
+  width: 6.21875rem;
+  height: 18.75rem;
+  left: 10.59375rem;
+  top: 12.34375rem;
+  list-style-type: none;
+  z-index: 50;
+}
+#container7 .page7-picline4 li:nth-child(1) {
+  width: 100%;
+  height: 6.21875rem;
+  background: url("../images/8-6.png") no-repeat 0px 0px;
+  background-size: 100% 100%;
+}
+#container7 .page7-picline4 li:nth-child(2) {
+  width: 100%;
+  height: 6.21875rem;
+  margin-top: 0.5rem;
+  background: url("../images/8-8.png") no-repeat 0px 0px;
+  background-size: 100% 100%;
+}
+#container7 .page7-picline5 {
+  opacity: 0;
+  position: absolute;
+  width: 6.21875rem;
+  height: 18.75rem;
+  left: 13.90625rem;
+  top: 15.625rem;
+  list-style-type: none;
+  z-index: 50;
+}
+#container7 .page7-picline5 li:nth-child(1) {
+  width: 100%;
+  height: 6.21875rem;
+  background: url("../images/8-9.png") no-repeat 0px 0px;
+  background-size: 100% 100%;
+}
+#container7 .page7-word {
+  opacity: 0;
+  width: 5rem;
+  height: 14.5rem;
+  position: absolute;
+  z-index: 20;
+  left: 2rem;
+  bottom: 2.5rem;
+}
+#container7 .page7-word span {
+  width: 1.5rem;
+  height: 14.5rem;
+  text-align: center;
+  float: right;
+  color: #333333;
+  font-size: 0.9375rem;
+  font-family: "SImHei";
+}
+
+/*# sourceMappingURL=style.css.map */
