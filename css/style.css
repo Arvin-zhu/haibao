@@ -204,11 +204,12 @@ body {
   top: 24.375rem;
 }
 #container4 .page4-word span {
-  position: relative;
-  min-height: 11.6875rem;
+  display: inline-block;
+  min-height: 11.84375rem;
   width: 2.3125rem;
   box-sizing: border-box;
   float: right;
+  line-height: 1.1 !important;
   text-align: center;
   border-left: 1px solid #cccccc;
   color: #333333;
@@ -597,6 +598,8 @@ body {
   bottom: 2.5rem;
 }
 #container7 .page7-word span {
+  display: inline-block;
+  line-height: 1.2 !important;
   width: 1.5rem;
   height: 14.5rem;
   text-align: center;
