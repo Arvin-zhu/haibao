@@ -22,7 +22,7 @@ $(function(){
 		$(".wrap").css("width",a+"px");
 		$(".wrap").css("height",b+"px");
 		$(".wrap").css("margin-left",(($(window).innerWidth()-a)/2)+"px");
-		document.documentElement.style.fontSize=a/375*16+"px";
+		$("html").css("font-size",a/375*16+"px");
 	}
 	window.addEventListener("onorientationchange" in window ? "orientationchange" : "resize", function() {
 		clearTimeout(t);

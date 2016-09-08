@@ -1,8 +1,9 @@
-$(function () {
+window.onload=function () {
     var mySwiper = new Swiper('.swiper-container',{
         loop:true,
         speed:500,
         mode:'vertical',
+        shortSwipes:true,
         onFirstInit: function(swiper){
             $("#container1 .word1").addClass("fadeInDown");
             $("#container1 .word2").addClass("fadeInLeft-page1");
@@ -110,4 +111,4 @@ $(function () {
             }
         }
     })
-})
+}

@@ -29,8 +29,8 @@
 .fadeInLeft-page1 {
     -webkit-animation-name: fadeInLeft;
     animation-name: fadeInLeft;
-    -webkit-animation-duration: 2s;
-    animation-duration: 2s;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 }
@@ -74,12 +74,12 @@
 .fadeInDown {
     -webkit-animation-name: fadeInDown;
     animation-name: fadeInDown;
-    -webkit-animation-duration: 2s;
-    animation-duration: 2s;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
-    -webkit-animation-delay: 1s;
-    animation-delay: 1s;
+    -webkit-animation-delay: 1.2s;
+    animation-delay: 1.2s;
 }
 .fadeInDown-page5 {
     -webkit-animation-name: fadeInDown;
@@ -315,8 +315,8 @@
     animation-name: bounceIn;
     -webkit-animation-duration: 1.2s;
     animation-duration: 1.2s;
-    -webkit-animation-delay: 1s;
-    animation-delay: 1s;
+    -webkit-animation-delay: 0.8s;
+    animation-delay: 0.8s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 }
@@ -350,10 +350,10 @@
 .rollIn {
     -webkit-animation-name: rollIn;
     animation-name: rollIn;
-    -webkit-animation-duration: 1.2s;
-    animation-duration: 1.2s;
-    -webkit-animation-delay: 2s;
-    animation-delay: 2s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-delay: 1.5s;
+    animation-delay: 1.5s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 }
@@ -387,8 +387,8 @@
 .fadeInLeft {
     -webkit-animation-name: fadeInLeft;
     animation-name: fadeInLeft;
-    -webkit-animation-duration: 1.2s;
-    animation-duration: 1.2s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 }
@@ -422,8 +422,8 @@
 .fadeInRight {
     -webkit-animation-name: fadeInRight;
     animation-name: fadeInRight;
-    -webkit-animation-duration: 1.2s;
-    animation-duration: 1.2s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 }
@@ -503,10 +503,10 @@
 .bounceInUp {
     -webkit-animation-name: bounceInUp;
     animation-name: bounceInUp;
-    -webkit-animation-duration: 1.2s;
-    animation-duration: 1.2s;
-    -webkit-animation-delay: 1.2s;
-    animation-delay: 1.2s;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-delay: 1.5s;
+    animation-delay: 1.5s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 }
@@ -514,8 +514,8 @@
     from {
         -webkit-transform-origin: center;
         transform-origin: center;
-        -webkit-transform: rotate3d(0, 0, 1, -200deg) scale(0);
-        transform: rotate3d(0, 0, 1, -200deg) scale(0);
+        -webkit-transform: rotate(-200deg) scale(0);
+        transform: rotate(-200deg) scale(0);
         opacity: 0;
     }
 
@@ -532,8 +532,8 @@
     from {
         -webkit-transform-origin: center;
         transform-origin: center;
-        -webkit-transform: rotate3d(0, 0, 1, -200deg) scale(0);
-        transform: rotate3d(0, 0, 1, -200deg) scale(0);
+        -webkit-transform: rotate(-200deg) scale(0);
+        transform: rotate(-200deg) scale(0);
         opacity: 0;
     }
 
@@ -749,29 +749,29 @@
 }
 @-webkit-keyframes flipInY-page7 {
     from {
-        -webkit-transform: rotate3d(0, 1, 0, 90deg);
-        transform:  rotate3d(0, 1, 0, 90deg);
+        -webkit-transform: rotateY(90deg);
+        transform:  rotateY(90deg);
         -webkit-animation-timing-function: ease-in;
         animation-timing-function: ease-in;
         opacity: 0;
     }
 
     40% {
-        -webkit-transform:  rotate3d(0, 1, 0, -20deg);
-        transform:  rotate3d(0, 1, 0, -20deg);
+        -webkit-transform: rotateY(-20deg);
+        transform:  rotateY(-20deg);
         -webkit-animation-timing-function: ease-in;
         animation-timing-function: ease-in;
     }
 
     60% {
-        -webkit-transform: rotate3d(0, 1, 0, 10deg);
-        transform:  rotate3d(0, 1, 0, 10deg);
+        -webkit-transform: rotateY(10deg);
+        transform:  rotateY(10deg);
         opacity: 1;
     }
 
     80% {
-        -webkit-transform: rotate3d(0, 1, 0, -5deg);
-        transform: rotate3d(0, 1, 0, -5deg);
+        -webkit-transform: rotateY(-5deg);
+        transform:  rotateY(-5deg);
     }
 
     to {
@@ -783,29 +783,29 @@
 
 @keyframes flipInY-page7 {
     from {
-        -webkit-transform: rotate3d(0, 1, 0, -180deg);
-        transform:  rotate3d(0, 1, 0, -180deg);
+        -webkit-transform: rotateY(-180deg);
+        transform:  rotateY(-180deg);
         -webkit-animation-timing-function: ease-in;
         animation-timing-function: ease-in;
         opacity: 0;
     }
 
     40% {
-        -webkit-transform:  rotate3d(0, 1, 0, 20deg);
-        transform:  rotate3d(0, 1, 0, 20deg);
+        -webkit-transform: rotateY(20deg);
+        transform:  rotateY(20deg);
         -webkit-animation-timing-function: ease-in;
         animation-timing-function: ease-in;
     }
 
     60% {
-        -webkit-transform: rotate3d(0, 1, 0, -10deg);
-        transform:  rotate3d(0, 1, 0, -10deg);
+        -webkit-transform: rotateY(-10deg);
+        transform:  rotateY(-10deg);
         opacity: 1;
     }
 
     80% {
-        -webkit-transform: rotate3d(0, 1, 0, 5deg);
-        transform: rotate3d(0, 1, 0, 5deg);
+        -webkit-transform: rotateY(5deg);
+        transform:  rotateY(5deg);
     }
 
     to {
